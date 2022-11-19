@@ -1,3 +1,24 @@
+This rework is a set up scripts that convert an mp4 movie into a set of images, then colorizes those images, then pulls them back together into an mp4. 
+This was the only open source project that worked on the M1-max Macbook with a few changes to the config.
+
+Dad wanted me to colorize a movie which is what started the project. I was originally going to turn this into an app but got busy. so instead i'm uploading the remants and all the poor naming conventions. 
+if you want an example, here is the devchata movie that I pulled
+https://www.youtube.com/watch?v=4GskjSBw9lA
+and here is the colorized version
+https://youtu.be/5XEnVt2_Dkc
+and here is the colorized one with sounds that i edited.
+https://youtu.be/xqk0E-W-ZFE
+
+
+how to use:
+run the files in order:
+they are seperate due to if 1 crashes or fails, the whole thing doesnt fail.
+
+test_video_extract.py // extracts the video into seperate images into folder data2
+demo_release.py // runs via CPU (because mac), colorized the images from folder data2 to dataColor
+test_video_generator.py // puts the video back together. the audio combination fails though and i couldnt get that working. + video may be slightly corrupted and i couldnt finish that. it runs fine on VLC with the audio.
+
+
 <!--<h3><b>Colorful Image Colorization</b></h3>-->
 ## <b>Colorful Image Colorization</b> [[Project Page]](http://richzhang.github.io/colorization/) <br>
 [Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In [ECCV, 2016](http://arxiv.org/pdf/1603.08511.pdf).

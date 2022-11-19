@@ -1,0 +1,12 @@
+frames: 138170.jpg
+
+1696 frames processed: 6.5 hours
+22124 frames processed: 16 hours
+11000 >2 hours
+
+
+
+486
+671
+---
+185
