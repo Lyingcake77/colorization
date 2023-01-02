@@ -6,8 +6,8 @@ if you want an example, here is the devchata movie that I pulled
 https://www.youtube.com/watch?v=4GskjSBw9lA
 and here is the colorized version
 https://youtu.be/5XEnVt2_Dkc
-and here is the colorized one with sounds that i edited.
-https://youtu.be/xqk0E-W-ZFE
+and here is the colorized one with sounds that I edited.
+https://youtu.be/0mWqTpmQH5c
 
 
 how to use:
